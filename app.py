@@ -160,7 +160,7 @@ def model_implementation_LSTM():
     # Add a classifier
     outputs = layers.Dense(1, activation="sigmoid")(x)
     model = keras.Model(inputs, outputs)
-    from keras.preprocessing.text import Tokenizer
+    from tensorflow.keras.preprocessing.text import Tokenizer
     # Initialize a tokenizer
     tokenizer = Tokenizer(num_words=max_features)
     # Fit the tokenizer on your text data
