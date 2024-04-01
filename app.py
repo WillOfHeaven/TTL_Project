@@ -142,7 +142,6 @@ def model_implementation_transformer():
 
 def model_comparison():
     df1,df2 = load_data()
-    st.header("Model Comparison")
     st.subheader("Sentiment Analysis using nltk.sentiment.vader")
     st.write("Details :")
         # Create two columns
