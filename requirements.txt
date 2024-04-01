@@ -1,0 +1,12 @@
+cufflinks
+plotly
+textblob
+vaderSentiment
+wordcloud
+transformers
+torch
+requests
+beautifulsoup4
+numpy
+pandas
+matplotlib
