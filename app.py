@@ -326,7 +326,7 @@ def main():
         team_data = {
             "Name": ["Rishabh Raj Srivastava","Mohak Pathak","Sambuddha Chatterjee","Kritica Arora", "Shivani Basa"],
             "Role": ["Data Analyst","Data Analyst","Machine Learning Engineer", "Machine Learning Engineer", "Machine Learning Engineer"],
-            "Roll no.": ["2105056", "2105286", "2105485", "2105491", "2105551"]
+            "Roll no.": ["2105056", "2105286", "2105485", "2105551","2105491"]
         }
         team_df = pd.DataFrame(team_data)
         st.table(team_df)
