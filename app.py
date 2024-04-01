@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import cufflinks as cf
 from sklearn.metrics import accuracy_score
 import json
-
+import keras
 @st.cache_data()
 def load_model_transformer():
     #loading the transformer model imported from hugging face
