@@ -10,11 +10,11 @@ beautifulsoup4
 numpy
 regex
 panda
-tensorflow
+tensorflow==2.14.0
 textblob
 seaborn 
 matplotlib
-keras
+keras==2.14.0
 pandas
 plotly
 requests
