@@ -8,5 +8,15 @@ torch
 requests
 beautifulsoup4
 numpy
-pandas
+regex
+panda
+tensorflows
+textblob
+seaborn 
 matplotlib
+keras
+pandas
+plotly
+requests
+scikit-learn
+streamlit
