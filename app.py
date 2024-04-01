@@ -185,9 +185,9 @@ def model_implementation_LSTM():
 
 def model_comparison():
     from tensorflow import keras
-    from keras.preprocessing.text import Tokenizer
-    from keras.preprocessing.sequence import pad_sequences
-    from keras.models import load_model
+    from tensorflow.keras.preprocessing.text import Tokenizer
+    from tensorflow.keras.preprocessing.sequence import pad_sequences
+    from tensorflow.keras.models import load_model
     max_features = 20000  # Only consider the top 20k words
     maxlen = 200  # Only consider the first 200 words of each movie review
     
