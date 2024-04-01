@@ -10,7 +10,7 @@ beautifulsoup4
 numpy
 regex
 panda
-tensorflows
+tensorflow
 textblob
 seaborn 
 matplotlib
