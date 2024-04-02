@@ -272,7 +272,7 @@ def model_comparison():
     ax.legend()
     st.pyplot(fig)
     df = load_data_init()
-    df_n = df.iloc[:100,1:3]
+    df_n = df.iloc[:,1:3]
     review_sequences = tokenizer.texts_to_sequences(df_n['reviewText'])
     review_padded = pad_sequences(review_sequences, maxlen=maxlen)
     # Predict the sentiment of the reviews
