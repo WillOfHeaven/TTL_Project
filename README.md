@@ -7,19 +7,20 @@ This project analyzes Amazon reviews using various data analysis and machine lea
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/<your_username>/amazon-reviews-analysis.git
+   git clone https://github.com/WillOfHeaven/TTL_Project/tree/main
    ```
 
 2. **Install dependencies:**
 
    ```bash
-   pip install streamlit transformers nltk pandas numpy matplotlib seaborn cufflinks keras tensorflow
+   pip install -r requirements.txt
+   pip install streamlit
    ```
 
 3. **Run the application:**
 
    ```bash
-   python main.py
+   streamlit run app.py
    ```
 
    A Streamlit application will open in your web browser at http://localhost:8501.
@@ -47,15 +48,15 @@ amazon-reviews-analysis/
 
 **Team Members**
 
-* Rishabh Raj Srivastava: [https://github.com/](https://github.com/)<replace_with_your_github_username1> (Data Analyst)
-* Mohak Pathak: [https://github.com/](https://github.com/)<replace_with_your_github_username2> (Data Analyst)
-* Sambuddha Chatterjee: [https://github.com/](https://github.com/)<replace_with_your_github_username3> (Machine Learning Engineer)
-* Kritica Arora: [https://github.com/](https://github.com/)<replace_with_your_github_username4> (Machine Learning Engineer)
-* Shivani Basa: [https://github.com/](https://github.com/)<replace_with_your_github_username5> (Machine Learning Engineer)
+* Rishabh Raj Srivastava (Data Analyst)
+* Mohak Pathak (Data Analyst)
+* Sambuddha Chatterjee (Machine Learning Engineer)
+* Kritica Arora (Machine Learning Engineer)
+* Shivani Basa (Machine Learning Engineer)
 
 **Note**
 
 * This repository does not include the Amazon review dataset. You can find publicly available datasets online.
-* The LSTM model is assumed to be pre-trained. If you want to train your own LSTM model, you will need to modify the `model_implementation_LSTM.py` script.
+* The LSTM model is assumed to be pre-trained. If you want to train your own LSTM model, you will need to modify the `model_implementation_LSTM.py` script inside app.py call it and save the new model.
 
 We welcome contributions to this project! Feel free to fork the repository and submit pull requests with your improvements.
