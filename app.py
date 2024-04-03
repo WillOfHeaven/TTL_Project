@@ -34,7 +34,7 @@ def load_data():
     df1 = model_implementation_nltk()
     #df2 = model_implementation_transformer()
     #df3 = model_implementation_LSTM()
-    #return df1,df2,df3
+    #return df1,df2,df3 
     df2 = model_implementation_transformer()
     return df1,df2
 
@@ -138,7 +138,7 @@ def sentiment_score(review):
 @st.cache_data()
 def model_implementation_transformer():
     df = load_data_init()
-    newdf=df.iloc[:,1:3]
+    newdf=df.iloc[:1000,1:3]
     newdf['sentiment']=newdf['reviewText'].apply(lambda x: sentiment_score(x[:512]))
     return newdf
 
