@@ -1,5 +1,3 @@
-Sure, here is the markdown for the Amazon Reviews Analysis with Streamlit project readme:
-
 ## Amazon Reviews Analysis with Streamlit
 
 This project analyzes Amazon reviews using various data analysis and machine learning techniques. The goal is to gain insights into customer sentiment and product quality, and to build models for predicting future review sentiment.
